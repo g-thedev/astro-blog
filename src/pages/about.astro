@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Navigation from '../componenets/Navigation.astro';
+import Footer from '../componenets/Footer.astro';
 
 const pageTitle = "About Me";
 
@@ -67,6 +68,8 @@ const textCase = "uppercase";
         <ul>
           {skills.map((skill) => <li class="skill">{skill}</li>)}
         </ul>
+
+        <Footer />
       </body>
 </html>
 
